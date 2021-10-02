@@ -35,10 +35,32 @@ export function Slider() {
             textAlign="center"
             bgPosition="center"
           >
+            <Link href="/continent/">
+              <a>
+                <Heading fontSize={["3xl","4xl","5xl"]} color="gray.100" fontWeight="bold">Europa</Heading>
+                <Text fontWeight="bold" color="gray.300" fontSize={["0.8rem","1xl","2xl"]} mt={["2", "4"]}>O continente mais antigo.</Text>
+              </a>
+            </Link>
+          </Flex>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <Flex
+            w="100%"
+            h="100%"
+            align="center"
+            justify="center"
+            direction="column"
+            bgImage="url(/europe.png)"
+            bgRepeat="no-repeat"
+            bgSize="cover"
+            textAlign="center"
+            bgPosition="center"
+          >
             <Link href="/continent/europe">
               <a>
-                <Heading>Europa</Heading>
-                <Text>O continente mais antigo.</Text>
+                <Heading fontSize={["3xl","4xl","5xl"]} color="gray.100" fontWeight="bold">Europa</Heading>
+                <Text fontWeight="bold" color="gray.300" fontSize={["0.8rem","1xl","2xl"]} mt={["2", "4"]}>O continente mais antigo.</Text>
               </a>
             </Link>
           </Flex>
