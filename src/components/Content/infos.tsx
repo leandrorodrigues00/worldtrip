@@ -11,8 +11,10 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { RiInformationLine } from "react-icons/ri";
+import { ContinentProps } from "../../pages/continent/[slug]";
 
-export function Infos() {
+export function Infos({continent}: ContinentProps) {
+ 
   return (
     <Flex alignItems="center" justifyContent="space-between">
       <Flex
@@ -21,7 +23,7 @@ export function Infos() {
         align={["flex-start", "flex-start", "center"]}
       >
         <Heading fontSize={["2xl", "5xl"]} color="yellow.400" fontWeight="500">
-          50
+          {continent.countries}
         </Heading>
         <Text fontWeight="600" fontSize={["md", "xl"]} color="gray.700">
           países
@@ -34,7 +36,7 @@ export function Infos() {
         align={["flex-start", "flex-start", "center"]}
       >
         <Heading fontSize={["2xl", "5xl"]} color="yellow.400" fontWeight="500">
-          60
+          {continent.languages}
         </Heading>
         <Text fontWeight="600" fontSize={["md", "xl"]} color="gray.700">
           Línguas
@@ -47,7 +49,7 @@ export function Infos() {
         align={["flex-start", "flex-start", "center"]}
       >
         <Heading fontSize={["2xl", "5xl"]} color="yellow.400" fontWeight="500">
-          27
+          {continent.cities}
         </Heading>
         <Text fontWeight="600" fontSize={["md", "xl"]} color="gray.700">
           cidades +100
@@ -68,7 +70,7 @@ export function Infos() {
               <PopoverArrow bg="gray.700" />
               <PopoverCloseButton />
               <PopoverBody fontWeight="400" fontSize="lg">
-                Roma, Lisboa, Madrid, Viena, Estocolmo, Amsterdam ...
+                {continent.cities_list}
               </PopoverBody>
             </PopoverContent>
           </Popover>
