@@ -36,7 +36,7 @@ The main objective is to create an application from scratch with Next.js and imp
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/leandrorodrigues00/ && cd ig.news
+$ git clone https://github.com/leandrorodrigues00/worldtrip && cd worldtrip
 
 ```
 
@@ -52,6 +52,9 @@ $ cp .env.example .env
 
 # Start the app
 $ yarn dev
+
+# Navigate to http://localhost:3000
+# The app will automatically reload if you change any of the source files.
 ```
 
 ## 📝 License
