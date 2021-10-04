@@ -17,7 +17,7 @@
 
 The main objective is to create an application from scratch with Next.js and implement the interface according to the Figma layout (developed with responsiveness), using the Chakra UI as a base. A challenge from Rocketseat's Ignite journey.
 
-[click here, see closer](https://ig-news-pcrdwxrq5-leandrorodrigues00.vercel.app/)  😉
+[click here, see closer](https://worldtrip-lr00.vercel.app/)  😉
 
 ## 🚀 Technologies
 
