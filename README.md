@@ -10,7 +10,7 @@
   <a href="#-getting-started">Getting started</a> •
   <a href="#-license">License</a>
 </p>
-  <img alt="ig.news" title="ig.news" src=".github/readmeImg.png" />
+  <img alt="home page WorldTrip" title="home page WorldTrip" src=".github/readmeImg.png" />
  
   
 ## 👩‍💻 About the project
