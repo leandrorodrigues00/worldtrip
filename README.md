@@ -15,6 +15,8 @@
   
 ## 👩‍💻 About the project
 
+Blog with travel tips for tourist towns.Connected to PRISMIC CMS, where you can create new blog posts with this tool!
+
 The main objective is to create an application from scratch with Next.js and implement the interface according to the Figma layout (developed with responsiveness), using the Chakra UI as a base. A challenge from Rocketseat's Ignite journey.
 
 * Integrated with Prismic CMS, where all information used on the website is stored/created. 🚀
